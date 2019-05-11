@@ -13,7 +13,7 @@ export default new Vuex.Store({
         height: 0
     },
     actions: {
-        loadCoins({ commit }) {
+        loadCoursesData({ commit }) {
             return new Promise((resolve, reject) => {
                 axios
                     .get('https://api.myjson.com/bins/1fq8pm')

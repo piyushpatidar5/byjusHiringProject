@@ -71,7 +71,7 @@ export default {
       spinner: "spinner-border",
       background: "#fff"
     });
-    this.$store.dispatch("loadCoins").then(
+    this.$store.dispatch("loadCoursesData").then(
       response => {
         if (response) loading.close();
       },
